@@ -9,9 +9,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 6%;
 }
 .top-banner {
-  padding: 6%;
+  
   background-image: url(../images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -45,4 +46,60 @@
 .description-text {
   margin-bottom: 20px;
   text-align: justify;
+}
+/* This Years Goal Section  */
+.goal-colored-text{
+  color: #FF408C;
+}
+.about-image{
+  width: 40%;
+}
+.about-image img{
+  width: 80%;
+  float: left;
+}
+.resume{
+  background-image: linear-gradient(#6C47DA, #5f4f91);
+}
+.goal-part{
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 40px;
+}
+
+/* Experiences part  */
+.experience-part{
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-head-text{
+  font-size: 40px;
+  text-align: center;
+}
+.experience-card{
+  margin: 0 25px;
+  box-shadow: 10px 10px 40px #808080;
+  padding: 50px;
+  border-radius: 10px;
+  border-left: 8px solid;
+}
+.experience-text{
+  margin-bottom: 10px;
+
+}
+#full-stack-developer{
+  border-image: linear-gradient(#FF408C, #f190b7) 14;
+  
+}
+#baby-software-engineer{
+  border-image: linear-gradient(#f78b6b, #e6a794) 14;
+  
+}
+/* footer part  */
+.footer-text{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
